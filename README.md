@@ -33,3 +33,5 @@ The `/screenshots` directory contains visual proof of CRM configuration, includi
 - Deal-level data validation
 
 ## 📁 Repository Structure
+
+Cart abandonment workflow automation with task creation
