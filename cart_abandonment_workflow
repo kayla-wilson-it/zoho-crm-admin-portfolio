@@ -1,0 +1,22 @@
+# Cart Abandonment Workflow Automation
+
+## Business Problem
+E-commerce customers frequently abandon carts before completing a purchase, requiring timely follow-up to recover potential revenue.
+
+## CRM Solution
+A workflow rule was implemented in Zoho CRM to automatically trigger follow-up actions when a deal enters the **Cart Abandoned Follow-Up** stage.
+
+## Trigger Conditions
+- Module: Deals
+- Trigger: On record create or edit
+- Condition: Stage equals Cart Abandoned Follow-Up
+
+## Automated Actions
+- Automatically creates a follow-up task
+- Task is assigned to the deal owner
+- Due date is set to 2 days after the trigger
+
+## Business Impact
+- Eliminates manual follow-up tracking
+- Ensures consistent outreach
+- Improves conversion potential for abandoned carts
